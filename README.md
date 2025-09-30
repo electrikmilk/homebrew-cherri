@@ -1,4 +1,4 @@
-# Electrikmilk Cherri
+# Cherri Homebrew
 
 ## How do I install these formulae?
 
