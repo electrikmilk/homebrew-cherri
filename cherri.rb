@@ -1,6 +1,7 @@
 class Cherri < Formula
   desc "Siri Shortcuts programming language"
   homepage "https://cherrilang.org/"
+  url ""
   version "1.2.0"
   license "GPL-2.0-only"
   os ""
