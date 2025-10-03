@@ -1,4 +1,4 @@
-class CherriIDE < Formula
+class IDE < Formula
   desc "A macOS IDE for the Cherri programming language."
   homepage "https://cherrilang.org/"
   url "https://github.com/electrikmilk/cherri-macos-app/archive/refs/tags/1.1.0.tar.gz"
