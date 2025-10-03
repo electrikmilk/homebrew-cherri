@@ -8,8 +8,6 @@ class CherriIDE < Formula
   depends_on xcode: ["15.0", :build]
 
   def install
-    # Build the Xcode project, specifying the scheme and configuration
-    # Change 'MyApp' to the scheme name of your project
     system "xcodebuild", "archive",
            "-scheme", "Cherri",
            "-configuration", "Release",
@@ -17,8 +15,6 @@ class CherriIDE < Formula
            "-archivePath", "build/Cherri.xcarchive",
            "SKIP_INSTALL=NO"
 
-    # Copy the resulting .app bundle to the correct location
-    # Note: This is an example, the exact path may vary based on your Xcode project settings.
     prefix.install "build/Cherri.xcarchive/Products/Applications/Cherri.app"
   end
 end
