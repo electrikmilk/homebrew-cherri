@@ -1,5 +1,6 @@
 class CherriApp < Formula
   desc "macOS IDE for the Cherri programming language"
+  version "1.1.0"
   homepage "https://cherrilang.org/"
   url "https://github.com/electrikmilk/cherri-macos-app/archive/refs/tags/1.1.0.tar.gz"
   sha256 "22a0fe9f18b01f6bfe8754616cb362c479f7ad488a3dfcbe35c975ad4ea39d8a"
