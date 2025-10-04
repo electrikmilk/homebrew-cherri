@@ -1,12 +1,26 @@
 # Cherri Homebrew
 
-## How do I install these formulae?
+## Installation
 
-`brew install electrikmilk/cherri/<formula>`
+Add Tap:
 
-Or `brew tap electrikmilk/cherri` and then `brew install <formula>`.
+```console
+brew tap electrikmilk/cherri
+```
 
-Or, in a `brew bundle` `Brewfile`:
+Install Cherri CLI:
+
+```console
+brew install electrikmilk/cherri/cherri
+```
+
+Install the Cherri macOS App:
+
+```console
+brew install electrikmilk/cherri/cherri-app
+```
+
+in a `brew bundle` `Brewfile`:
 
 ```ruby
 tap "electrikmilk/cherri"
