@@ -14,12 +14,6 @@ Install Cherri CLI:
 brew install electrikmilk/cherri/cherri
 ```
 
-Install the Cherri macOS App:
-
-```console
-brew install electrikmilk/cherri/cherri-app
-```
-
 in a `brew bundle` `Brewfile`:
 
 ```ruby
