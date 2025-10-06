@@ -5,7 +5,7 @@ class CherriApp < Formula
   sha256 "03163adf4078dbb77ddaf651c0d08e9750ff369f11d233bf00d5e86cee262338"
   license "GPL-2.0-only"
 
-  depends_on xcode: ["26.0", :build]
+  depends_on xcode: ["15.0", :build]
 
   def install
     xcodebuild "archive",
