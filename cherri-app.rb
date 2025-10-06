@@ -13,7 +13,8 @@ class CherriApp < Formula
            "-configuration", "Release",
            "-destination", "platform=macOS,arch=arm64",
            "-archivePath", "build/Cherri.xcarchive",
-           "SKIP_INSTALL=NO"
+           "SKIP_INSTALL=NO",
+           "ENABLE_USER_SCRIPT_SANDBOXING=NO"
 
     prefix.install "build/Cherri.xcarchive/Products/Applications/Cherri.app"
   end
