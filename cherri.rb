@@ -8,12 +8,12 @@ class Cherri < Formula
   on_macos do
     on_arm do
       url "https://github.com/electrikmilk/cherri/releases/download/v#{version}/cherri_darwin-arm64.zip"
-      sha256 "8416a13dd79ee3008f54d6411a0c56a2c8aaf06e6437f2d59472666f9df385b7"
+      sha256 "0d77ae39ddfff37abd96dd9e5db63851b2669a95f04cc7d913146c4a7336dd10"
     end
 
     on_intel do
       url "https://github.com/electrikmilk/cherri/releases/download/v#{version}/cherri_darwin-x86_64.zip"
-      sha256 "7cdc1f4d25ef3320b9c1fd0393c15cb549ae0c5c584e058f0156ad695cd43e43"
+      sha256 "39c2073806dbcb1b5e8f431de1494f4ed9b2cd802c3d12a77b1d15a4017d66e3"
     end
   end
 
@@ -21,12 +21,12 @@ class Cherri < Formula
   on_linux do
     on_arm do
       url "https://github.com/electrikmilk/cherri/releases/download/v#{version}/cherri_linux-arm64.zip"
-      sha256 "bf084dfa2e551b872d394d43abf6455673896d8f9dd25f4ee5e5c79121f636b5"
+      sha256 "3c3da73bc56a28d31feec3986e0893bded2cf6674b6bf332b80e19bfaf7d5da8"
     end
 
     on_intel do
       url "https://github.com/electrikmilk/cherri/releases/download/v#{version}/cherri_linux-x86_64.zip"
-      sha256 "b457412b832ebf0e45eb19590a41af0df871f8665595f1e838423fd772496bb2"
+      sha256 "fd3b44d798bd937719e7c17895a2be2ef8d6893b2e6d21da8908077bdd9a6c9c"
     end
   end
 
