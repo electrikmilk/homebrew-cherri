@@ -1,7 +1,7 @@
 class Cherri < Formula
   desc "Siri Shortcuts programming language"
   homepage "https://cherrilang.org/"
-  version "2.1.0"
+  version "2.1.1"
   license "GPL-2.0-only"
 
   # macOS binaries
