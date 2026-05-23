@@ -20,7 +20,7 @@ jobs:
     steps:
       - name: Install bubblewrap
         if: matrix.os == 'Linux'
-        run: sudo apt-get update && sudo apt-get install -y bubblewrap
+        run: apt-get install -y bubblewrap
       - name: Set up Homebrew
         id: set-up-homebrew
         uses: Homebrew/actions/setup-homebrew@main
