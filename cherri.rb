@@ -1,19 +1,19 @@
 class Cherri < Formula
   desc "Siri Shortcuts programming language"
   homepage "https://cherrilang.org/"
-  version "2.3.0"
+  version "2.4.0"
   license "GPL-2.0-only"
 
   # macOS binaries
   on_macos do
     on_arm do
       url "https://github.com/electrikmilk/cherri/releases/download/v#{version}/cherri_darwin-arm64.zip"
-      sha256 "15e4651d4c957a03cdfeb6c5fd74ea8ac66f1d6e20897883fef3547fdd36d264"
+      sha256 "745f96c60d09406725ad5ef846307fddd3a965c3dcf52b70b552895509a340ec"
     end
 
     on_intel do
       url "https://github.com/electrikmilk/cherri/releases/download/v#{version}/cherri_darwin-x86_64.zip"
-      sha256 "a9555b8e93e5e374a0dacd0df66d3b952493539eddc0bcccaf8030ecf1d96b82"
+      sha256 "637bf9ef7e9ad6abc66bc15dd20d4f671db428bddbd8f8fb7e42baa16ebe0873"
     end
   end
 
@@ -21,12 +21,12 @@ class Cherri < Formula
   on_linux do
     on_arm do
       url "https://github.com/electrikmilk/cherri/releases/download/v#{version}/cherri_linux-arm64.zip"
-      sha256 "05f81502a73fc25b913f9548500e121f39d2bd4ccccd46c56c0453b37f28cc48"
+      sha256 "b39f1c1adc38d584be7bf549ede383f899a982b59e5cdd799d50a42067e914ce"
     end
 
     on_intel do
       url "https://github.com/electrikmilk/cherri/releases/download/v#{version}/cherri_linux-x86_64.zip"
-      sha256 "7ab2c384b7b26e7c72a30a8dfa56f89dae12c4068b7951bc1e3193f3698edbe9"
+      sha256 "160c2d71c2a3653a20f0b80a1e7505ee846137ef17e209f511c873e4471b8e44"
     end
   end
 
